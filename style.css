@@ -1,0 +1,16 @@
+/* Print optimization */
+@media print {
+  body {
+    background-color: #ffffff;
+  }
+  header, section:first-of-type {
+    display: none !important;
+  }
+  #invoiceCanvas {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
